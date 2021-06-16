@@ -49,6 +49,12 @@ class _HomeScreenState extends State<HomeScreen> {
           )
         ],
       ),
+      floatingActionButton: FloatingActionButton(
+        child: Icon(Icons.arrow_forward),
+        onPressed: () {
+          Navigator.of(context).pushNamed('/about');
+        },
+      ),
     );
   }
 }

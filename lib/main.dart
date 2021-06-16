@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:w_break/screens/about_screen.dart';
 import 'package:w_break/screens/home_screen.dart';
 
 main() {
@@ -14,6 +15,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => HomeScreen(),
+        '/about': (context) => AboutScreen()
       },
     );
   }
