@@ -46,6 +46,16 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: Text('SUMAR'),
               ),
             ],
+          ),
+          SizedBox(
+            height: 30,
+          ),
+          Hero(
+            tag: 'lucario',
+            child: Image.asset(
+              'assets/images/lucario.jpg',
+              height: 100,
+            ),
           )
         ],
       ),
